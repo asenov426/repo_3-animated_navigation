@@ -17,7 +17,7 @@ main {
   justify-content: center;
 }
 
-nav {
+#nav {
   background-color: CornflowerBlue;
   width: 350px;
   height: 50px;
@@ -26,7 +26,7 @@ nav {
   justify-content: space-around;
 }
 
-nav.hide {
+#nav.hide {
   opacity: 0;
   width: 0;
 } 
