@@ -17,18 +17,20 @@ main {
   justify-content: center;
 }
 
-#nav {
+nav {
   background-color: CornflowerBlue;
   width: 350px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  transition: width 2s, opacity 1.5s;
 }
 
-#nav.hide {
+nav.hide {
   opacity: 0;
   width: 0;
+  transition: width 2s, opacity 1.5s;
 } 
 
 a {
