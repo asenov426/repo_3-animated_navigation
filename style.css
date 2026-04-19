@@ -26,7 +26,10 @@ nav {
   justify-content: space-around;
 }
 
- 
+nav.hide {
+  opacity: 0;
+  width: 0;
+} 
 
 a {
     text-decoration: none;
@@ -39,6 +42,14 @@ a {
   margin-left: 3px;
 }
 
-#close-outline {
+#close-outline, #reorder-three-outline {
   font-size: 30px;
+}
+
+#close-outline.hide {
+  display: none;
+}
+
+#reorder-three-outline.hide {
+  display: none;
 }
